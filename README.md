@@ -1,15 +1,9 @@
 # Serverless Notifications
 Serverless Service for Serverless Notifications (AWS IoT)
 
-## Tutorial
-
-Blog post: https://zanon.io/posts/serverless-notifications-on-aws
-
-Demo: https://serverless-notifications.zanon.io
-
 ## Usage
 
-1. With the Serverless Framework v1.x, run `serverless install --url https://github.com/zanon-io/serverless-notifications`
+1. With the Serverless Framework v1.x, run `serverless install --url
 
 2. Inside the **create-role** folder, run `npm install` and `node index` to create an IoT role. I've named the role as **serverless-notifications**. If you want to rename, modify this file and the **handler.js** file.
 
